@@ -1,0 +1,63 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.warper {
+    display: flex;
+    background-color: cornsilk;
+}
+
+.header {
+    height: 80%;
+    margin: 56px 32px 56px 180px;
+    padding: 30px;
+    background-color: #4a63e7;
+    border-radius: 20px;
+    position: fixed;
+    color: azure;
+}
+
+.info-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: azure 4px solid;
+}
+
+.info-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 32px;
+}
+
+.info-jobname {
+    font-weight: 200;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 32px 0px;
+    padding: 0;
+}
+
+.list-item {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.item-link {
+    color: azure;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.list-item:hover .item-link{
+    color: blue;
+}
+
+.list-item:hover {
+    background-color: #eee;
+}
